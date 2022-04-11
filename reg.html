@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Registration Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="reg.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <video src="media/vvv.mp4" id="backg" muted loop autoplay ></video>
+    <div class="cont">
+      <div class="reg-card">
+          
+          <form>
+            <h1>Registration</h1><br/>
+            <label>First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder=" First Name" required><br/>
+            <span id="firstName">Please enter your first name</span>
+    
+            <label>Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder=" Last Name" required><br/>
+            <span id="lastName">Please enter your last name</span>
+            
+            
+            <label>Email:</label>
+            <input type="email" id="em" name="email" placeholder=" E-Mail" required><br/>
+            <span id="emailCh">please check your email</span>
+
+            <label>Password:</label>
+            <input type="password" id="pass" name="password" placeholder=" Password" required><br/>
+            <span id="passCh">[ 8 to 15 characters which contain only characters, numeric digits, underscore and first character must be a letter]</span>
+            
+            
+            <label>confirm your Password:</label>
+            <input type="password" id="passCon" placeholder=" Confirm Password" required><br/>
+            <span id="checkCon">please confirm your password</span>
+            
+            <input type="button" value="SignUP" onclick="reg()" id="btn">
+        </form>
+      </div>
+    </div>
+
+    <script src="reg.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

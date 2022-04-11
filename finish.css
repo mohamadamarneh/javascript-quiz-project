@@ -1,0 +1,112 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+}
+/*video background*/
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+/*image edit */
+  #im {
+      width: 60%;
+      height: 90%;
+      
+  }
+
+
+h1 {
+    padding: 1% 2%;
+}
+
+p {
+    padding: 1% 2%;
+}
+
+/* content edit */
+.content {
+    position: fixed;
+    margin-top: 3%;
+}
+
+/* card edit*/
+.cardEdit {
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    margin: 45px;
+    margin-top: 2%;
+
+}
+
+
+/* breif edit*/
+.breif {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+/* img edit*/
+.imge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 479px) {
+    #im {
+        width: 65%;
+        margin-top: 30%;
+    }
+    .breif {
+        width: 100%;
+        text-align: center;  
+            
+     
+    }
+    .cardEdit {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        margin: 45px;
+        margin-top: 2%;
+    
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #im {
+        width: 35%;
+        margin-top: 10%;
+    }
+    .breif {
+        width: 100%;
+        text-align: center;  
+            
+     
+    }
+    .cardEdit {
+        position: fixed;
+        top: 5%;
+        left: 10%;
+        margin: 45px;
+        margin-top: 2%;
+    
+    }
+}
+

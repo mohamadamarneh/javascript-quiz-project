@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <video src="media/vvv.mp4" id="backg" muted loop autoplay ></video>
+    <div class="cont">
+    <section>
+
+        <!-- اسوء اشي بعد اكل مال اليتيم هو الform -->
+        <!-- i change the bad form to new alagance div -->
+        <!-- note : when we click on div that containes the ans it must be checked -->
+
+       
+        <div class="div-form">
+             <div id="countdown">  </div>
+            <div id="form"> 
+                
+
+                <hr>
+
+                <div class="div-input-p">
+                    <p class="para" id="q"></p>
+
+                    <div class="input-answer" onclick="divAple(1)" id="div1">
+
+                        <input type="radio" name="answer" id="rad1" onchange="butAple()">
+                        <label  id="ans1" for="rad1"></label>
+
+                    </div>
+                    <div class="input-answer2" onclick="divAple(2)" id="div2">
+
+                        <input type="radio" name="answer" id="rad2" onchange="butAple()">
+                        <label  id="ans2" for="rad2"></label>
+
+                    </div>
+                    <div class="input-answer3" onclick="divAple(3)" id="div3">
+
+                        <input type="radio" name="answer" id="rad3" onchange="butAple()">
+                        <label id="ans3" for="rad3"></label>
+                    </div>
+
+                    <div class="input-answer4" onclick="divAple(4)" id="div4">
+
+                        <input type="radio" name="answer" id="rad4" onchange="butAple()">
+                        <label  id="ans4" for="rad4"></label>
+
+                    </div>
+
+                    <button id="button-next" onclick="orph()">Next</button>
+                </div>
+                <hr>
+
+
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

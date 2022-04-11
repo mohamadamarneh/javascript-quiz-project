@@ -1,0 +1,302 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+#backg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#countdown {
+    color: white;
+
+}
+
+.cont {
+    position: fixed;
+    width: 100%;
+}
+
+body {
+
+
+    background-size: cover;
+
+
+}
+
+.input-answer {
+    border: 2px solid;
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #17205b;
+    color: white;
+}
+
+.input-answer:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(1, 110, 178);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black
+}
+
+.input-answer2 {
+    border: 2px solid;
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #17205b;
+    color: white;
+
+
+}
+
+.input-answer2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(1, 110, 178);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black
+}
+
+.input-answer3 {
+    border: 2px solid;
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #17205b;
+    color: white;
+
+}
+
+.input-answer3:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(1, 110, 178);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black
+}
+
+.input-answer4 {
+    border: 2px solid;
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #17205b;
+    color: white;
+
+}
+
+.input-answer4:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(1, 110, 178);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black
+}
+
+section {
+    width: 100%;
+    height: 100%;
+
+}
+
+.div-form {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#form {
+    border: 2px solid;
+    padding: 70px;
+    border-radius: 25px;
+    background-color: gray;
+
+}
+
+.div-input-p {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button-next {
+
+    font-size: 25px;
+    height: 50px;
+    width: 135px;
+    margin-top: 25px;
+    background-color: #17205b;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#button-next:hover {
+    background-color: rgb(1, 110, 178);
+
+}
+
+.para {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*------------------------------------------------------media query (quiz page)-----------------------------------------*/
+
+
+@media screen and (max-width: 480px) {
+
+    .input-answer {
+        width: 200px;
+        position: relative;
+        right: 15px;
+    }
+
+    .input-answer2 {
+        width: 200px;
+        position: relative;
+        right: 15px;
+    }
+
+    .input-answer3 {
+        width: 200px;
+        position: relative;
+        right: 15px;
+    }
+
+    .input-answer4 {
+        width: 200px;
+        position: relative;
+        right: 15px;
+    }
+
+    #form {
+
+        width: 40%;
+        height: 60%;
+        position: relative;
+        margin-bottom: 27%;
+        right: 8px;
+
+    }
+
+    #q {
+        font-size: 16px;
+        position: relative;
+        bottom: 20px;
+        right: 13px;
+        width: 250px;
+
+    }
+
+    #button-next {
+
+        position: relative;
+        right: 20px;
+        font-size: 17px;
+        height: 35px;
+    }
+
+    .div-input-p {
+        padding: 20px;
+    }
+
+    #countdown {
+        position: relative;
+
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    .input-answer {
+        width: 400px;
+        position: relative;
+        right: 15px;
+    }
+
+    .input-answer2 {
+        width: 400px;
+        position: relative;
+        right: 15px;
+    }
+
+    .input-answer3 {
+        width: 400px;
+        position: relative;
+        right: 15px;
+    }
+
+    .input-answer4 {
+        width: 400px;
+        position: relative;
+        right: 15px;
+    }
+
+    #form {
+
+       
+        position: relative;
+        margin-bottom: 5%;
+        right: 8px;
+
+    }
+
+    #q {
+        font-size: 16px;
+        position: relative;
+        bottom: 20px;
+        right: 13px;
+        width: 500px;
+
+    }
+
+    #button-next {
+
+        position: relative;
+        right: 20px;
+        font-size: 17px;
+        height: 35px;
+    }
+
+    .div-input-p {
+        padding: 20px;
+    }
+
+    #countdown {
+        position: relative;
+
+    }
+
+
+}
+
+
+
