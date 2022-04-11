@@ -1,2 +1,2 @@
 # quiz-project make refresh to website before register 
-https://mohamadamarneh.github.io/quiz-project/quiz/home
+https://github.com/mohamadamarneh/quiz-project/blob/main/quiz/home
